@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style';
 
-import {Navbar,Testimonials, Main } from "./components";
+import {Navbar,Testimonials, Main, Socials } from "./components";
 
 const App = () => (
   <div className = "bg-primary w-full overflow-hidden">
@@ -21,6 +21,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
        
         <Testimonials/> 
+        <Socials/>
 
       </div>
     </div>

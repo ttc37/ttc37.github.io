@@ -15,8 +15,14 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import profpic from "./profpic.jpg";
+import maplelogo from "./maplelogo.png";
+import caregiver from "./caregiver.png";
+import github from "./github.svg";
 
 export {
+  github,
+  caregiver,
+  maplelogo,
   profpic,
   arrowUp,
   close,
