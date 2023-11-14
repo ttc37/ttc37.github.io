@@ -1,13 +1,11 @@
 import Navbar from "./Navbar";
-import Testimonials from "./Testimonials";
 import Main from "./Main";
-import GetStarted from "./GetStarted";
 import Socials from "./Socials";
+import AboutMe from "./AboutMe";
 
 export {
+  AboutMe,
   Socials,
   Navbar,
-  Testimonials,
   Main,
-  GetStarted,
 };

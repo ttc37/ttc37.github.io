@@ -1,9 +1,12 @@
-import styles from "../style";
 import { robot, profpic } from "../assets";
+
+import { projectdesc } from "../constants";
+import styles from "../style";
+import ProjectInfo from "./ProjectInfo";
 
 const Main = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <><section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row justify-between items-center w-full">
@@ -29,6 +32,21 @@ const Main = () => {
       </div>
 
     </section>
+    <section className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
+
+        <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
+
+        <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+          <h2 className={styles.heading2}>
+          Below are my current or finished personal projects: <br className="sm:block hidden" />
+          </h2>
+        </div>
+
+        <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+          {projectdesc.map((card) => <ProjectInfo key={card.id} {...card} />)}
+        </div>
+
+    </section></>
   );
 };
 
