@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.97bdcdab.css",
-    "main.js": "/static/js/main.0c2a0fc9.js",
+    "main.js": "/static/js/main.13e9e99b.js",
     "static/js/453.9b1a9f3d.chunk.js": "/static/js/453.9b1a9f3d.chunk.js",
     "static/media/profpic.jpg": "/static/media/profpic.6bc0419144cb90308ca2.jpg",
+    "static/media/comcastlogo.png": "/static/media/comcastlogo.a127d6914c68a40c0143.png",
     "index.html": "/index.html",
     "main.97bdcdab.css.map": "/static/css/main.97bdcdab.css.map",
-    "main.0c2a0fc9.js.map": "/static/js/main.0c2a0fc9.js.map",
+    "main.13e9e99b.js.map": "/static/js/main.13e9e99b.js.map",
     "453.9b1a9f3d.chunk.js.map": "/static/js/453.9b1a9f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97bdcdab.css",
-    "static/js/main.0c2a0fc9.js"
+    "static/js/main.13e9e99b.js"
   ]
 }
